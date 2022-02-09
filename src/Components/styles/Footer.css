@@ -1,0 +1,26 @@
+footer {
+    background-color: #0a0a0a;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.social-media {
+    width: 50px;
+}
+
+.social-media img:hover {
+    opacity: .6;
+}
+
+.by a{
+    color: white;
+}
+
+.by a:hover {
+    opacity: .6;
+}

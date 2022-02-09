@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca');
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #051c33;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #bbbbbb;
+  border-radius: 50px;
+  box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.2) inset;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  user-select: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Lexend Deca', sans-serif;
+  color: #3f4850;
+}
+
+h1 {
+  font-size: 3em;
+  color: #051c33;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 52px 0 40px;
+  text-transform: capitalize;
+  color: #051c33;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  padding: 10px 15px;
+}
+
+@media only screen and (min-width: 768px) {
+    h1 {
+      font-size: 4em;
+    } 
+    h2 {
+      font-size: 2em;
+    }
+}

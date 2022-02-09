@@ -1,0 +1,26 @@
+.photo-container ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.photo-container li {
+    width: 400px;
+    height: 350px;
+    line-height: 0px;
+    overflow: hidden;
+    margin-bottom: 35px;
+}
+
+.photo-container li img {
+    width: 400px;
+    height: 350px;
+    object-fit: cover;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .photo-container li {
+        margin: 20px;
+    }
+}
